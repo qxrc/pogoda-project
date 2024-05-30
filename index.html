@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода вашего населенного пункта</title>
+
+    <script src="./pogoda.js"></script> <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.cells.min.js"></script>
+</head>
+<body>
+<div id="intro"></div>
+    <div id="main">
+        <section>
+   <div class="header">
+<h3>Прогноз погоды</h3><br>
+<form  id="form">
+<input type="text" id="gorod"  placeholder="Введите название города" >
+<input type="button" id="button1" onclick="go()" value="Показать">
+</form>
+   </div>
+</section>
+<div class="content">
+  <div class="container">
+    <div id="gorod1">  </div>
+    <div id="gredus"> </div>
+    <div  id="uslovia"></div>
+    <div class="reg"><p id="region"></p></div>
+    <div id="veterism"></p></div>
+   
+  </div>
+</div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+<div id="footer">
+    <h3>Работу выполнил Тетюцкий Александр ИСиП-22-202</h3>
+</div>
+    </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <script>
+   VANTA.CELLS({
+  el: "#main",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  color1: 0x131f2f,
+  color2: 0xa2aaad,
+  size: 5.00,
+  speed: 0.60
+})
+
+document.getElementById('gorod').addEventListener('keypress', function (e) {
+  if (e.key >= 0 && e.key <= 9) {
+      e.preventDefault();
+  }
+});
+
+    </script>
+</body>
+</html>

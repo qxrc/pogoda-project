@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Fjalla+One&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+ body{
+   font-family: "Oswald" ;
+   margin: 0px;
+   padding: 0;
+   height:100%;
+   width: 100%;
+}
+
+#main{
+   height:  100vh ;
+   width: 100vw;
+}
+#intro{
+   width: auto;
+   height: auto;
+}
+select{
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+ .header{
+    padding: 15px;
+    color: #bdbdbd;
+    font-size: 36px;
+    text-transform: uppercase;
+    background: rgba(225, 225, 225, 0.2);
+    box-shadow:0 4px 30px rgba(0, 0, 0, 0.1) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    text-align: center;
+}
+/* инпут */
+ #gorod{
+   background: #363636;
+   color: #9b9b9b;
+   border: none;
+
+   font-size: 25px;
+   position: relative;
+   bottom: 50px;
+}
+/* кнопка погоды */
+ #button1{
+   background: #363636;
+   color: #d8d8d8;
+   border: none;
+   font-size: 25px;
+   position: relative;
+   bottom: 50px;
+}
+/* Подвал */
+ #footer{
+   display: flex;
+   position: fixed;    
+   justify-content: center;
+   align-items: center;
+   color: #000000;
+   background-color: #301fed; 
+   background: rgba(225, 225, 225, 0.2);
+   box-shadow:0 4px 30px rgba(0, 0, 0, 0.1) ;
+   backdrop-filter: blur(20px);
+   -webkit-backdrop-filter: blur(20px);
+   font-size: 16px;
+   left: 0; 
+   bottom: 0; 
+   padding: 10px;
+   height:38px;
+   width: 100%; 
+   padding-left: 29px;
+   text-transform: uppercase;
+}
+
+ #button1:hover{
+    color: rgb(112, 112, 112);
+    background-color: rgb(0, 0, 0);
+}
+ .cart{
+   
+   justify-content: center;
+   width: 500px;
+   height: 300px;
+   background-color: rgb(252, 252, 252);
+   border: solid rgb(29, 34, 37)  10px;
+   border-style:groove double;
+  
+
+}
+ .content{
+   display: flex;
+   margin-top: 10%;
+   justify-content: center; display: flex;
+   margin-top: 10%;
+   justify-content: center;
+
+}
+ #gorod1{
+   margin-top: 15px;
+   margin-left: 10px;
+
+ 
+}
+ #region{
+   text-align: center;
+
+}
+ 
+ #uslov{
+font-size: 20px;
+margin-left: 10px;
+ margin-top: 11px;
+}
+#imgs{
+   margin-left: 30px;
+}
+ #veter{
+   position: relative;
+   left: 120px;
+}
+ .va{
+   display: flex;
+}
+
+ #uslov{
+   text-align: center;
+}
+ #gorod1{
+   text-align: center;
+   font-size: 30px;
+}
+ #gredus{
+   text-align: center;
+   font-size: 40px;
+}
+ .container {
+   border: solid rgb(29, 34, 37)  10px;
+   border-style:groove double;
+   background-color: aliceblue;
+   width: 500px;
+   height: 260px;
+   justify-content: center;
+   display: grid;
+   grid-template-rows: auto auto 100px; 
+   grid-template-columns: 1fr 1fr 1fr; 
+}
+ #region{
+   text-align: center;
+}
+ #veterism{
+   font-size: 20px;
+   margin-top: 30px;
+   text-align: center;
+}
+ .content{
+   display: flex;
+   margin-top: 10%;
+   justify-content: center;
+}
+.container div:not(:nth-child(n+3)) {
+   grid-column: span 3; 
+}
+ #uslovia{
+   text-align: center;
+   margin-top: 30px;
+   font-size: 20px;
+}
+ .reg{
+   text-align: center;
+}
